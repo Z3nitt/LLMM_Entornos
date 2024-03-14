@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<productos>
+    <producto>
+        <nombre>Pantalla</nombre>
+        <descripcion>Es cuadrada y emite cosas</descripcion>
+        <precio>200€</precio>
+        <lista_caracteristicas nombre="pantalla" valor="patata">
+            <caracteristica>Es una pantalla basica de color negro y de 25 pulgadas</caracteristica>
+        </lista_caracteristicas>
+    </producto>
+    <producto>
+        <nombre>Teclado</nombre>
+        <descripcion>Tiene teclas y es rectangular</descripcion>
+        <precio>2€</precio>
+        <lista_caracteristicas nombre="teclado" valor="si">
+            <caracteristica>Es rectangular y tiene teclas con letras y numeros, todo una revolución informatica!!!!</caracteristica>
+        </lista_caracteristicas>
+    </producto>
+</productos>

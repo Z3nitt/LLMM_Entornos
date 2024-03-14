@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <!--Estructura de tabla-->
+    <table border="1">
+        <caption>Tabla</caption>
+        <thead>
+            <!--tr son las filas-->
+            <tr>
+                <!--th son las celdas en la cabecera-->
+                <th>A</th>
+                <th>B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--td son las celdas en la cabecera-->
+                <td>A1</td>
+                <td>B1</td>
+            </tr>
+            <tr>
+                <td>Sexo?</td>
+                <td>Sexo</td>
+            </tr>
+        </tbody>
+        <!--Pie de tabla opcional-->
+        <tfoot>
+
+        </tfoot>
+
+    </table>
+
+    <!--Ejercicio tabla-->
+    <br/><br/><br/>
+    <table style="text-align: center;" border="1">
+        <caption>Extracción_Metales</caption>
+        <thead>
+            <tr>
+                <th>Pais</th>
+                <th>Oro</th>
+                <th>Plata</th>
+                <th>Bronce</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USA</td>
+                <td>110</td>
+                <td>115</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>España</td>
+                <td>180</td>
+                <td>115</td>
+                <td>41</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>250</th>
+                <th>230</th>
+                <th>140</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br/><br/><br/>
+    <!--Ejercicio tabla2-->
+
+    <table border=1">
+        <thead>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A1</td>
+                <td>
+                    <table border="1">
+                        <tbody>
+                            <tr>
+                                <td>B1</td>
+                            </tr>
+                            <tr>
+                                <td>B2</td>
+                            </tr>
+                            <tr>
+                                <td>B3</td>
+                            </tr>
+                            <tr>
+                                <td>B4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br/><br/><br/>
+    <!--Ejercicio tabla 3-->
+    <table style="text-align: center;" border="1">
+                <tbody>
+                        <tr><td>A</td></tr>
+                        <tr>
+                              <td>
+                                  <table>
+                                     <tr>
+                                           <td>
+                                                 <table border="1">
+                                                       <tbody>
+                                                           <tr>
+                                                                 <td>B1</td>
+                                                           </tr>
+                                                             <tr>
+                                                                  <td>B2</td>
+                                                              </tr>
+                                                               <tr>
+                                                                  <td>B3</td>
+                                                                 </tr>
+                                                           </tbody>
+                                                     </table>
+                                                        </td>
+                                                        <td>
+                                                           <table border="1">
+                                                                <tbody>
+                                                                    <tr>
+                                                                       <td>C1</td>
+                                                                       <td>C2</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                    </table>
+                                            </td>
+                                         </tr>
+                                    </table>
+                              </td>
+                        </tr>
+                </tbody>
+            </table>
+
+
+    <br/><br/>
+    <!--Ejercicio tabla 4-->
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>
+                    <table border="1">
+                        <tbody>
+                            <tr>
+                                <td>A1</td>
+                            </tr>
+                            <tr>
+                                <td>A2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>    
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td>B1</td>
+                            <td>
+                                <table border="1">
+                                    <tr>
+                                        <td>B1-1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>B1-2</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td>C1</td>
+                            <td>
+                                <table border="1">
+                                    <tr>
+                                        <td>C1-1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C1-2</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td>D1</td>
+                        </tr>
+                        <tr>
+                            <td>D2</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</br></br></br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th></th>
+                <th>9-10</th>
+                <th>10-11</th>
+                <th>11-12</th>
+            </tr>
+        </thead>
+        <tr> <!--1º Fila-->
+            <th>Lunes</th>
+            <td>BD</td>
+            <td colspan="2" align="center">LLMM</td>
+        </tr>
+        <tr><!--2º Fila-->
+            <th>Martes</th>
+            <td>SISTEMAS</td>
+            <td rowspan="2" align="center">BBDD</td>
+            <td>ENTORNOS</td>
+        </tr>
+        <tr><!--3º Fila-->
+            <th>Miercoles</th>
+            <td>SISTEMAS</td>
+            <td>PROGRAMACIÓN</td>
+        </tr>
+        <tr><!--4º Fila-->
+            <th>Jueves</th>
+            <td colspan="2" align="center">PROGRAMACIÓN</td>
+            <td>FOL</td>
+        </tr>
+    </table>
+
+    
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE supermercado SYSTEM "supermercado.dtd">
+
+<supermercado>
+    <articulo n_art="articulo1" cantidad="300">
+        <descripcion>yogurt</descripcion>
+        <marca tipo="nacional">Danone</marca>
+        <medida unidad="Sistema Internacional">1 Pack 4</medida>
+        <seccion>lacteos</seccion>
+    </articulo>
+    <articulo n_art="articulo2">
+        <descripcion>Queso fresco</descripcion>
+        <marca tipo="nacional">Burgo de Arias</marca>
+        <medida>250 gr</medida>
+        <seccion>Lacteos</seccion>
+        <oferta>Lote descuento</oferta>
+        <perecedero>
+        <fabricacion>Feberero de 2014</fabricacion>
+        </perecedero>
+    </articulo>
+</supermercado>

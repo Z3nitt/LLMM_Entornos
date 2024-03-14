@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE agenda [
+<!ELEMENT agenda (contacto*)>
+<!ELEMENT contacto (nombre, telefonoFijo*, telefonoMovil+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefonoFijo (#PCDATA)>
+<!ELEMENT telefonoMovil (#PCDATA)>
+]>
+
+<agenda>
+    <contacto>
+        <nombre>Ayuntamiento</nombre>
+        <telefonoFijo>010</telefonoFijo>
+        <!--Aqui falta la etiquieta telefonomovil-->
+        <!--<telefonoMovil>Desconocido</telefonoMovil>-->
+    </contacto>
+    <contacto>
+        <nombre>Emergencias</nombre>
+        <telefonoFijo>112 (Unión Europea)</telefonoFijo>
+        <telefonoMovil>Desconocido</telefonoMovil>
+        
+        <!--Esta etiqueta sobra, solo puede haber un telefono fijo-->
+        <telefonoFijo>911 (Estados Unidos)</telefonoFijo>
+    </contacto>
+</agenda>

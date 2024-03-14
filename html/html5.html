@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <header> <!--Cabecera del cuerpo-->
+        <h1>Web Semántica</h1>
+        <nav> <!--Menu de enlaces-->
+            <a href="#seccion1">Sección 1</a>
+            <a href="#seccion2">Sección 2</a>
+        </nav>
+    </header>
+
+    <main> <!--Solo uno por pagina web-->
+        <section> <!--Divisiones dentro del body-->
+            <header>
+                <h2>Furbo</h2>
+                <nav>
+                    <a href="www.marca.es">Marca</a>
+                </nav>
+            </header>
+            <div>
+                <article> <!--Subdivisiones-->
+                    <h3>Equipos de furbo: Sevilla FC</h3>
+                    <a href="www.sevillafc.es"><img src="./imagenes/logosevilla.jpg"></a>
+                </article>
+                <article>
+                    <h3>Sexo</h3>
+                    <a href="www.sevillafc.es"><img src="./imagenes/imagen1.jpg"></a>
+                </article>
+                <article>
+                    <h3>¿Luigi?</h3>
+                    <video src="./videos/luigi.mp4" width="600" height="400" controls autoplay muted poster="./imagenes/imagen2.jpg"> 
+                        
+                        <!--controls es pa que salgan los botones, autoplay pa que empiece solo y muted pa que empiece muteao, poster es pa la miniatura-->
+
+
+                    </video>
+                </article>
+                <article>
+                    <h3>¿Luigi?</h3>
+                    <video width="600" height="400" controls autoplay muted poster="./imagenes/imagen2.jpg"> 
+                        <source src="./videos/luigi.mp4" type="luigi/mp4">
+                        <source src="./videos/luigi.mp4" type="luigi/wav">
+                        <p>Su navegador está obsoleto</p>
+                        <!--Source es para cambiar el formato del video en caso de que el navegador no soporte el mp4-->
+                    </video>
+                </article>
+                <article>
+                    <audio src="./audio/amarillo.mp3" controls preload="auto" loop autoplay>
+
+                        <!--controls es para que se vea el audio, preload para dejarlo cargao, loop es en bucle y auplay para que empiece solo-->
+
+                    </audio>
+                </article>
+                <br><br><br>
+                <article>
+                    <details> <!--Esto es para el desplegable, se pueden poner fotos, tablas...-->
+                        <summary>¿Cual es tu color favorito?</summary>
+                        <p>Sexo</p>
+                    </details>
+                    <details>
+                        <summary>¿De que color es el caballo blanco de santiago?</summary>
+                        <p>Soy daltonico</p>
+                    </details>
+                </article>
+                <article> <!--Introducir un trozo de googlemaps, vas a googlemaps, compartir la ubi, insertar un mapa, copias el enlace y lo pegas-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12797.198644792523!2d-4.4602368!3d36.6913364!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f9c45623d2c3%3A0x7a634bd28c0cf953!2sMEDAC%20Nova%20%F0%9F%A5%87%20Centro%20Tecnol%C3%B3gico%20de%20FP!5e0!3m2!1ses!2ses!4v1699439358806!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+            </div>
+        </section>
+        <br><br><br><br>
+        <aside> <!--Info extra-->
+            <h6>Me quiero ir a mi puta casa ya</h6>
+        </aside>
+    </main>
+
+    <footer> <!--Pie de pagina-->
+        <header>
+            <nav>
+                <a href="SEXO">Aviso muy legal</a>
+                <a href="SEXO">Juanfran te huele la cabeza</a>
+                <a href="SEXO">El pito me huele a mayonesa</a>
+                <a href="SEXO">¿SEXO?</a>
+            </nav>
+        </header>
+    </footer>
+
+</body>
+</html>

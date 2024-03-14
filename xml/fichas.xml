@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="fichas.xsd">
+    <ficha numero="1">
+        <nombre>Ana</nombre>
+        <apellido>Ruiz</apellido>
+        <edad>23</edad>
+    </ficha>
+    <ficha numero="2">
+        <nombre>Mario</nombre>
+        <apellido>Sanchez</apellido>
+        <edad>26</edad>
+    </ficha>
+</fichas>
+
+<!-- Quiero validar el documento XML anterior. Teniendo en cuenta que la edad tiene que ser un valor comprendido entre 1 y 130 (ambos valores incluidos). Además, tanto el nombre como el apellido tienen 15 caracteres.-->

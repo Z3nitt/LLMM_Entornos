@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE Libro SYSTEM "libro.dtd">
+
+<Libro Catalogo="Aprender">
+    <Titulo>Aprende XML</Titulo>
+    <Seccion>Aprendizaje</Seccion>
+    <SubSeccion>Informática</SubSeccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema>Aprender XML y DTD</Tema>
+        </Capitulo>
+        <Separacion/>
+    </Contenido>
+    <Copyright>Creado por Juanlu</Copyright>
+</Libro>

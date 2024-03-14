@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+<!DOCTYPE pedidos[
+    <!ELEMENT pedidos (pedido)*>
+    <!ELEMENT pedido (herramienta+,cantidad+,modelo?,precio+,oferta?,nombre_cliente+,ciudad+,cp+,direccion+,receptor_pedido+,urgente?)>
+        <!ATTLIST pedido fecha CDATA #REQUIRED>
+    <!ELEMENT herramienta (#PCDATA)>
+        <!ATTLIST herramienta codigo CDATA #REQUIRED>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+        <!ATTLIST precio moneda CDATA #REQUIRED>
+    <!ELEMENT oferta EMPTY>
+    <!ELEMENT urgente EMPTY>
+    <!ELEMENT nombre_cliente (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT cp (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT receptor_pedido (#PCDATA)>
+        <!ATTLIST receptor_pedido parentesco CDATA #IMPLIED>
+]>
+-->
+<pedidos>
+    <pedido fecha="20/10/99">
+        <herramienta codigo="872-AA">Cortadora de césped</herramienta>
+        <cantidad>1</cantidad>
+        <modelo/>
+        <precio moneda="€">148,95</precio>
+        <oferta/>
+        <nombre_cliente>Roberto Movilla</nombre_cliente>
+        <ciudad>Albacete</ciudad>
+        <cp>05020</cp>
+        <direccion>Plaza de la Duquesa 12</direccion>
+        <receptor_pedido parentesco="Esposa">Alicia Abad</receptor_pedido>
+    </pedido>
+    <pedido fecha="20/10/99">
+        <herramienta codigo="926-FH">Podadora para setos</herramienta>
+        <cantidad>3</cantidad>
+        <precio moneda="€">7,98</precio>
+        <urgente/>
+        <nombre_cliente>Roberto Movilla</nombre_cliente>
+        <ciudad>Madrid</ciudad>
+        <cp>28055</cp>
+        <direccion>General Ricardos 56</direccion>
+        <receptor_pedido>Roberto Movilla</receptor_pedido>
+    </pedido>
+</pedidos>

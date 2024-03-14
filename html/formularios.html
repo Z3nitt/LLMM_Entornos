@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+
+    <form action="https://localhost/proceso.php" method="get"> 
+        
+        <!--El metodo "get" muestra la info en la barra de url y el "post" no, se usa el "post" el 99 de las veces-->
+        <fieldset style="background-color: aquamarine;">
+        <legend>SEXO</legend>
+        Nombre: <input type="text" name="Nombre"required size="50" maxlength="30" minlength="5" disabled> 
+        <br><br>
+        Nombre2: <input type="text" name="Nombre2"required size="50" maxlength="30" minlength="5" placeholder="Escribe aqui tu nombre" autofocus tabindex="1"> 
+        <br><br>
+        Nombre3: <input type="text" name="Nombre3"required size="50" maxlength="30" minlength="5" value="SEXO" readonly tabindex="3">
+        <br><br>
+        Numeros: <input type="number" name="numeros" step="10" min="20" max="100">
+        <br><br>
+        Fecha: <input type="date" name="fecha">
+        <br><br>
+        Hora: <input type="time" name="hora">
+        <br><br>
+        Fecha y hora: <input type="datetime-local" name="Fecha y hora">
+        <br><br>
+        Color: <input type="color" name="color" value="#FFFF00">
+        <br><br><br>
+        Contraseña: <input type="password" name="Contraseña">
+    </fieldset> <!--Esto es pa agrupar cozas-->
+
+
+        <!--required te obliga a completar el cuadro, size es el tamño del recuadro, max y min es el maximo y minimo de caracteres que se pueden rellenar, autofocus selecciona un recuadro pa escribir primero, disabled es pa no poder escribir en un recuadro, tab index es el patron que sigue al darle al tab-->
+    </br></br>
+    <input type="file" name="fichero">
+    <br><br><br>
+    <!--El "step"es pa ir de 2 en dos, osea, en multiplos xd-->
+    Matriculas (Patrones): <input type="text" name="matricula" step="10" min="8" max="10" placeholder="1234-ABC" pattern="\d{4}-[A-Z]{3}">
+    <br><br><br>
+    ¿Cual es tu nivel actual de Skeler trifasico?
+    <br>
+    <input type="range" name="rango" min="0" max="10" list="lista_valores" value="0">
+    <datalist id="lista_valores">
+        <option value="0"></option>
+        <option value="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5"></option>
+        <option value="6"></option>
+        <option value="7"></option>
+        <option value="8"></option>
+        <option value="9"></option>
+        <option value="10"></option>
+    </datalist>
+    <br><br>
+    Radio
+    </br>
+    <input type="radio" name="grupo_radio" value="deportes">Deportes
+    <input type="radio" name="grupo_radio" value="sexo" checked>Sexo
+    <input type="radio" name="grupo_radio" value="sexo2">Mas Sexo
+    <br><br>
+    <p>
+    CheckBox de gustos
+    <br>
+    <input type="checkbox" name="grupo_check" value="Furbo">Furbo
+    <input type="checkbox" name="grupo_check" value="tetas">Tetas
+    <input type="checkbox" name="grupo_check" value="gasolina">Gasolina
+    <input type="checkbox" name="grupo_check" value="coches">coches
+    </p>
+    <p>
+        Lista desplegable <!--Size es tamaño a mostrar y multiple seleccionar varios pusaldo el ctrl-->
+        <select name="opciones" size="3" multiple>
+            <option value="Lunes">Lunes</option>
+            <option value="Martes">Martes</option>
+            <option value="Miercoles">Miercoles</option>
+            <option value="Jueves">Jueves</option>
+            <option value="Viernes">Viernes</option>
+            <option value="Sabado" selected>Sabado</option>
+            <option value="Domingo">Domingo</option>
+        </select>
+    </p>
+    <br>
+    <p>
+        Patata
+        <select name="opciones">
+            <optgroup label="Dias lectivos">
+                <option value="Lunes">Lunes</option>
+                <option value="Martes">Martes</option>
+                <option value="Miercoles">Miercoles</option>
+                <option value="Jueves">Jueves</option>
+                <option value="Viernes">Viernes</option>
+                <option value="Sabado" selected>Sabado</option>
+                <option value="Domingo">Domingo</option>
+            </optgroup>
+            <optgroup label="Dias no lectivos">
+                <option value="Sabado" selected>Sabado</option>
+                <option value="Domingo">Domingo</option>
+            </optgroup>
+        </select>
+    </p>
+    <br><br>
+    <p>
+        <progress max="100" value="35"></progress>
+    </p>
+
+
+
+
+    
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+    cuadro
+    <br>
+    <textarea rows="10" cols="10"></textarea>
+
+    <br><br><br>
+
+        <p>
+            <input type="radio" name="sexo" value="h">Hombre
+            <input type="radio" name="sexo" value="m">Mujer
+        </p>
+        <input type="submit" tabindex="2" value="Enviar">
+        <input type="reset" value="Limpiar">
+        <input type="button" value="Hace algo">
+    </form>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div h2 {color: red;}
+        div h2:first-child{color: greenyellow;}
+        div h2:last-child{color:blue}
+        div h2:nth-child(4){color: orange;}
+        a:hover{
+            background-color: coral;
+            font-size: 40px;
+            transition: 4s;
+        }
+        div:hover a{
+            background-color: gold;
+            font-size: 40px;
+            transition: 3s;
+        }
+        a:active{background-color: #ff1493;}
+        a:visited{
+            font-size: 10px;
+            background-color: violet;
+        }
+        a:link{
+            font-size: 10px;
+            background-color: violet;
+        }
+        h2::before{
+            content: "*";
+            color:dimgray;
+        }
+        h2::after{
+            content: "#";
+            color: indigo;
+        }
+        p::first-line{color:maroon;}
+        p::first-letter{font-size: 40px;}
+        #aaa{font-size: 10px;}
+        div h2:first-child::first-letter{color: royalblue;}
+    </style>
+</head>
+<body>
+    <div>
+    <h2>Sexo?</h2>
+    <h2>Si</h2>
+    <h2>Cuando</h2>
+    <h2>Por favor</h2>
+    <h2>Makelele</h2>
+    <h2>Wayimbo</h2>
+    <h2>Eskeler</h2>
+    </div>
+    <h2>AAAAAAA</h2>
+    <h2>Palanca</h2>
+    <div>
+        <a href="www.marca.com">Polno grati</a>
+    </div>
+    <br>
+    <a href="www.sexooo.com">Click aqui para tener una tula enorme</a>
+    <p>aaaaaaaaaaaa</p>
+    <p id="aaa">a</p>
+
+</body>
+</html>

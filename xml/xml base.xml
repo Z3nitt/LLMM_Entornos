@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE equipos []> <!--DTD Interno-->
+
+<!--<!DOCTYPE equipos SYSTEM "validacion.dtd"> DTD externo-->
+<!--<!DOCTYPE equipos PUBLIC "validacion.dtd"> DTD publico externo (Servidor online)-->
+<!--
+<concesionario>
+    <coche>
+        <marca>Fiat</marca>
+        <color>Azul</color>
+    </coche>
+    <coche>
+        <marca>Renault</marca>
+        <color>Rojo</color>
+    </coche>
+</concesionario>
+
+
+<bebidas>
+    <bebida>
+        <codigo>1</codigo>
+        <nombre>coco-colo</nombre>
+        <precio>200€</precio>
+    </bebida>
+    <bebida>
+        <codigo>2</codigo>
+        <nombre>RedBull</nombre>
+        <precio>500€</precio>
+    </bebida>
+</bebidas>
+
+
+<ciudades>
+    <ciudad>
+        <nombre>Málaga</nombre>
+        <pais>España</pais>
+        <continente>Europa</continente>
+        <visitado/>
+    </ciudad>
+    <ciudad>
+        <nombre>Sidney</nombre>
+        <pais>Australia</pais>
+        <continente>Oceania</continente>
+    </ciudad>
+    <ciudad>
+        <nombre>Orlando</nombre>
+        <pais>EEUU</pais>
+        <continente>America</continente>
+        <visitado/>
+    </ciudad>
+</ciudades>
+-->
+
+<equipos>
+    <equipo>
+        <nombre>Wayimbos FC</nombre>
+        <ciudad>Albacete</ciudad>
+        <entrenador/>
+        <jugadores>
+            <jugador posicion="delantero">
+                <nombre>Manolo</nombre>
+                <nacionalidad>Chino</nacionalidad>
+            </jugador>
+            <jugador posicion="portero">
+                 <nombre>Eustaquio</nombre>
+                 <nacionalidad>Peruano</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>Skeler FC</nombre>
+        <ciudad>Murcia</ciudad>
+        <entrenador/>
+        <jugadores>
+            <jugador posicion="defensa">
+                <nombre>Juanito</nombre>
+                <nacionalidad>Calvo</nacionalidad>
+            </jugador>
+            <jugador posicion="CalientaBanquillos">
+                <nombre>Eusebio</nombre>
+                <nacionalidad>Chileno</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE libro [
+    <!ELEMENT libro (paginas)>
+    <!ELEMENT paginas (pagina)+>
+    <!ELEMENT pagina ((nombre, descripcion, url, idioma?)|autor)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT url (#PCDATA)>
+        <!ATTLIST url lang (ESP|ENG|ITA) "ITA">
+    <!ELEMENT idioma EMPTY>
+    <!ELEMENT autor (nombre_autor)>
+        <!ATTLIST autor apellido CDATA #REQUIRED>
+    <!ELEMENT nombre_autor (#PCDATA)>
+    <!--?= 0 o una vez 
+        *= 0, 1 o muchas veces
+        += 1 o mas
+        | seleccion or    
+    -->
+]>
+
+
+<libro>
+    <paginas>
+        <pagina>
+            <nombre>Wayimbo</nombre>
+            <descripcion>Socorro, ayuda</descripcion>
+            <url lang="ESP">www.aiuda.com</url>
+            <idioma/>
+        </pagina>
+        <pagina>
+            <autor apellido="Sexo guiterrez">
+                <nombre_autor>Si</nombre_autor>
+            </autor>
+        </pagina>
+        <pagina>
+            <nombre>Skeler</nombre>
+            <descripcion>Que alguien llame a alguien</descripcion>
+            <url>www.socorro.com</url>
+        </pagina>
+    </paginas>
+</libro>

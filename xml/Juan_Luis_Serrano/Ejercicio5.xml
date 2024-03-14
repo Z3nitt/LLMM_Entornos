@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<albumes>
+    <album>
+        <fotografia>
+            <lugar>Albacete</lugar>
+            <fecha hora="13:15"></fecha>
+            <tipo_camara>Canon 150HRF</tipo_camara>
+            <personas>3</personas>
+            <monumento nombre="Estatua de Atenea"/>
+        </fotografia>
+    </album>
+    <album>
+        <fotografia>
+            <lugar>Matalascañas</lugar>
+            <fecha hora="10:00"></fecha>
+            <tipo_camara>Samsung 847LGA</tipo_camara>
+            <personas>1</personas>
+        </fotografia>
+    </album>
+</albumes>
